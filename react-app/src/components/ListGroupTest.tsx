@@ -3,6 +3,7 @@ import { useState } from "react";
 interface Item {
     name: string;
     url: string;
+    rating: string;
   }
 
 interface Props {
@@ -17,7 +18,7 @@ function ListGroupTest({items, heading, onSelectItem}: Props) {
 
   return (
     <>
-      <h1>{heading}</h1>
+      <h2>{heading}</h2>
       {items.length === 0 && <p>No item found</p>}
       <ul className="list-group">
         {items.map((item, index) => (
