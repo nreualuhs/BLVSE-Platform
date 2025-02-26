@@ -8,6 +8,8 @@ import {
   TableRow,
 } from "@/components/ui/table"
 
+import TextRating from "./ui/rating";
+
 //name, compability, description, overall rating 
 
 function TableGroup() {
@@ -29,28 +31,22 @@ function TableGroup() {
       <TableCell>NVDA, Dolphin Screen Reader, JAWS</TableCell>
       <TableCell>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</TableCell>
-      <TableCell className="text-right">5/5</TableCell>
+      <TableCell className="text-right"><TextRating></TextRating></TableCell>
     </TableRow>
     <TableRow>
       <TableCell className="font-medium">AI Content Describer</TableCell>
       <TableCell>NVDA add-on</TableCell>
       <TableCell>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</TableCell>
-      <TableCell className="text-right">5/5</TableCell>
+      <TableCell className="text-right"><TextRating></TextRating></TableCell>
     </TableRow>
     <TableRow>
       <TableCell className="font-medium">IndentNav</TableCell>
       <TableCell>NVDA add-on, Visual Studio Code</TableCell>
       <TableCell>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</TableCell>
-      <TableCell className="text-right">5/5</TableCell>
+      <TableCell className="text-right"><TextRating></TextRating></TableCell>
     </TableRow>
-    <TableRow><TableCell></TableCell></TableRow>
-    <TableRow><TableCell></TableCell></TableRow>
-    <TableRow><TableCell></TableCell></TableRow>
-    <TableRow><TableCell></TableCell></TableRow>
-    <TableRow><TableCell></TableCell></TableRow>
-    <TableRow><TableCell></TableCell></TableRow>
   </TableBody>
 </Table>
 </>

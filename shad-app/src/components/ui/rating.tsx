@@ -17,7 +17,7 @@ const labels: { [index: string]: string } = {
 };
 
 export default function TextRating() {
-  const value = 3.5;
+  const value = 4;
 
   return (
     <Box sx={{ width: 200, display: 'flex', alignItems: 'center' }}>
@@ -26,7 +26,8 @@ export default function TextRating() {
         value={value}
         readOnly
         precision={0.5}
-        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit" />}
+        aria-label={`Rating: ${labels[value]} (${value} stars)`}
+        emptyIcon={<StarIcon style={{ opacity: 0.55 }} fontSize="inherit"/>}
       />
       <Box sx={{ ml: 2 }}>{labels[value]}</Box>
     </Box>
