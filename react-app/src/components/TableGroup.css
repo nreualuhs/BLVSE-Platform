@@ -1,0 +1,13 @@
+.table-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 50vh; 
+    margin: auto; 
+    padding: 15%;
+    border-radius: 8px;
+}
+
+.table-container-hover {
+    background-color: #f8f9fa;   
+}
