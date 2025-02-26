@@ -13,7 +13,7 @@ import {
 function TableGroup() {
     return (
         <>
-<Table className= "Tool-Index">
+<Table>
   <TableCaption>Table of all avaliable tools</TableCaption>
   <TableHeader>
     <TableRow>
@@ -45,6 +45,12 @@ function TableGroup() {
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</TableCell>
       <TableCell className="text-right">5/5</TableCell>
     </TableRow>
+    <TableRow><TableCell></TableCell></TableRow>
+    <TableRow><TableCell></TableCell></TableRow>
+    <TableRow><TableCell></TableCell></TableRow>
+    <TableRow><TableCell></TableCell></TableRow>
+    <TableRow><TableCell></TableCell></TableRow>
+    <TableRow><TableCell></TableCell></TableRow>
   </TableBody>
 </Table>
 </>
