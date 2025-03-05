@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import CreatePage from './pages/CreatePage.tsx';
+import CanYouSeeMe from './pages/CanYouSeeMeInfo.tsx';
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "createpage",
     element: <CreatePage/>,
+  },
+  {
+    path: "canyouseeme", //ideally, it would work like "tool/{name}", try to implement later
+    element: <CanYouSeeMe/>
   },
 ]);
 

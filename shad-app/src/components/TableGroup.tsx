@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/table"
 
 import TextRating from "./ui/rating";
+import { Link } from "lucide-react";
 
 //name, compability, description, overall rating 
 
