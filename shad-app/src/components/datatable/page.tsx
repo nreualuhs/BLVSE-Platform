@@ -1,30 +1,26 @@
-"use client";
+import { Payment, columns } from "./columns"
+import { DataTable } from "./data-table"
 
-import { useEffect, useState } from "react";
-import { Payment, columns } from "./columns";
-import { DataTable } from "./data-table";
+async function getData(): Promise<Payment[]> {
+  // Fetch data from your API here.
+  return [
+    {
+      id: "728ed52f",
+      name: "Can You See Me",
+      compatibility: "JAWS",
+      description: "A simple tool that offers guidence on webcam placement to people with limited amounts of useful vision",
+      rating: "4/5"
+    },
+    // ...
+  ]
+}
 
-const staticData: Payment[] = [
-  {
-    id: "728ed52f",
-    amount: 100,
-    status: "pending",
-    email: "m@example.com",
-  },
-];
-
-export default function DemoPage() {
-  const [data, setData] = useState<Payment[]>([]);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setData(staticData);
-    }, 500); // Simulating an API call
-  }, []);
+export default async function DemoPage() {
+  const data = await getData()
 
   return (
     <div className="container mx-auto py-10">
       <DataTable columns={columns} data={data} />
     </div>
-  );
+  )
 }
