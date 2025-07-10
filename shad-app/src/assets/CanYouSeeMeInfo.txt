@@ -1,0 +1,13 @@
+Description: Can You See Me is a simple tool that offers guidance on webcam placement to people with limited amounts of useful vision. Based on simple verbal feedback given by the tool, blind people are able to independently position themselves appropriately in relation to their webcam before attending online meetings such that other sighted participants are able to see them. The tool uses on-device computer vision, which in non-technical terms means that unlike some other services the images that your webcam captures are never sent to third parties.
+
+Compatibility Information: Can You See Me is compatible with NVDA, Dolphin Screen Reader and JAWS. If you're using one of these screen readers prompts will be spoken and Brailed through your screen reader. If you're not using a screen reader or one that is incompatible the tool will speak its prompts itsself.
+
+Tutorial Video(s): N/A
+
+Guidelines: https://canyouseeme.app/how%20to%20use/ 
+
+Limitations: N/A
+
+User Reviews: 4/5
+
+Link: https://canyouseeme.app

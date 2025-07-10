@@ -3,6 +3,7 @@
 import { ColumnDef } from "@tanstack/react-table"
 import { ArrowUpDown } from "lucide-react"
 import { Button } from "../ui/button"
+import { Link } from "react-router-dom"
 
 // This type is used to define the shape of our data.
 // You can use a Zod schema here if you want.
@@ -28,7 +29,16 @@ export const columns: ColumnDef<Payment>[] = [
         </Button>
       )
     },
-  },
+    cell: ({ row }) => {
+      const item = row.original
+      return (
+        <Link to={'/tool/${item.id}'}
+        className="text-blue-600 hover:underline">
+          {item.name}
+        </Link>
+        )
+      },
+    },
   {
     accessorKey: "compatibility",
     header: "Compatibility",
