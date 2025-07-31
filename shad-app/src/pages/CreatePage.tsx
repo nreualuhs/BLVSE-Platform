@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar";
 function CreatePage() {
     return (
         <div>
-            <Navbar></Navbar>
             <div>In a perfect world, the functionality is done here...</div>
         </div>
     )

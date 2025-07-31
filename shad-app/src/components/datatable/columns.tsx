@@ -32,8 +32,9 @@ export const columns: ColumnDef<Payment>[] = [
     cell: ({ row }) => {
       const item = row.original
       return (
-        <Link to={'/tool/${item.id}'}
-        className="text-blue-600 hover:underline">
+        <Link to={`/tool/${item.id}`}
+        state={{ name: item.name }}
+        className="hover:underline">
           {item.name}
         </Link>
         )
