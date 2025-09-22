@@ -26,13 +26,13 @@
 │   │   ├── App.tsx
 └── └── ├── main.tsx
 ```
-> These are the main areas you'll be working in. Try not to change the CSS files if you can.
+> These are the main areas you'll be working in. Try not to change the CSS files if you can, unless you need to make a global change. Otherwise, try to keep styling in the HTML files (this is how tailwind css stlyes things). 
 
 ## What is being used
 - [Shadcn](https://ui.shadcn.com/) components (specifically [datatable](https://ui.shadcn.com/docs/components/data-table) and [navbar](https://ui.shadcn.com/docs/components/navigation-menu))
 - React (obviously)
 - Typescript (works basically like a combo of JS and HTML, there are tutorials in case you're confused)
-- Tailwind css
+- [Tailwind css](https://nerdcave.com/tailwind-cheat-sheet)
 - Vite
 
 ## What still needs to be developed!
