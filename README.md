@@ -29,9 +29,9 @@
 > These are the main areas you'll be working in. Try not to change the CSS files if you can.
 
 ## What is being used
-- [Shadcn](https://ui.shadcn.com/) components (specifically datatable and navbar)
+- [Shadcn](https://ui.shadcn.com/) components (specifically [datatable](https://ui.shadcn.com/docs/components/data-table) and [navbar](https://ui.shadcn.com/docs/components/navigation-menu))
 - React (obviously)
-- Typescript (works basically like javascript, there are tutorials in case you're confused)
+- Typescript (works basically like a combo of JS and HTML, there are tutorials in case you're confused)
 - Tailwind css
 - Vite
 
@@ -53,7 +53,9 @@ It doesn’t allow us to manipulate the text. For example, I can’t make a link
 
 **components** : Contains the ***datatable*** folder and the ***ui*** folder. 
 - ***datatable*** : Contains the “data” portion of the datatable. This allows items to be searchable and the table to be manipulated. I recommend spending time to understand this, as you’ll have to work here to add features (like tagging items). 
-> ⚠️  It might say “Payment” in some areas, feel free to change this, it’s just leftover from when I imported the table and didn’t change the original type name for the item. 
+> ⚠️ It might say “Payment” in some areas, feel free to change this, it’s just leftover from when I imported the table and didn’t change the original type name for the item.
+
+> ⚠️ You'll also notice that some functions of the normal shadcn component are missing. I just determined that they were not needed and deleted them. If you find them necessary, you may reinclude them. Same for the NavBar.
 - ***ui*** : The UI of the items. Navbar and the HTML of the datatable are here. More understandable. Come here to do any CSS styling. 
 
 **lib** : Contains a utils.ts file. Nothing important to note about this currently. 
