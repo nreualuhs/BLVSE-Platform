@@ -6,9 +6,7 @@
 
 **⚠️ Also, make sure to work ONLY in the _BLVSP-app_ folder. There's another one called _react-app_ which is old and not up to date. Shouldn't affect anything at all, just don't go into it. Please...**
 
-**Run the platform with**
-```npm run dev```
-**and stop it with CTRL+C.**
+### **Run the platform with** ```npm run dev``` **and stop it with CTRL+C.**
 
 # Current High-level Structure Of The Platform
 ```bash
