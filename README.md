@@ -4,6 +4,8 @@
 
 **⚠️ I was learning along the way of developing this platform. I tried my best to keep it logical and organized, but I apologize if it isn't!**
 
+**⚠️ Also, make sure to work ONLY in the _BLVSP-app_ folder. There's another one called _react-app_ which is old and not up to date. Shouldn't affect anything at all, just don't go into it. Please...**
+
 **Run the platform with**
 ```npm run dev```
 **and stop it with CTRL+C.**
