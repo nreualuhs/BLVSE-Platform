@@ -36,7 +36,7 @@
 - Vite
 
 ## What still needs to be developed!
-- Tag based organization system. Check with Yoonha and Andre for specifics on what tags should be used and how this will funciton
+- Tag based organization system. Check with Yoonha and Andre for specifics on what tags should be used and how this will function.
 - [Email form](https://youtu.be/OFBVmAVqr5I?si=q_uK-kdNNeP-UrnI) that users can fill out and recommend products. This will send an automatic email to a email specifically for this platform and will allow us to update the table manually.
 - Whatever else the team decides! We may be looking into styling it a bit more, etc. Feel free to message me if you wanna have dev talk! :)
 
